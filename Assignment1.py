@@ -1,23 +1,18 @@
-#.ADD
-#.SUBTRACT
-#.MULTIPLY
-#.DIVIDE
+input("+,-,*,/:")
+number_1 = int(input('Enter your first number: '))
+number_2 = int(input('Enter your second number: '))
 
-print("select an operation to perform:")
-print("1. ADD")
-print("2. SUBTRACT")
-print("3. MULTIPLY")
-print("4. DIVIDE")
+if "opt1" == '+':
+    result = number_1 + number_2
+    print("number_1 + number_2")
 
-operation = input()
+elif "opt1" == '-':
+    result = number_1 - number_2
+    print("number_1 - number_2")
 
-if operation == 1
-    #code for ADD
-elif operation == 2    
-    #code for SUBTRACT
-elif operation == 3
-    #code for MULTIPLY
-elif operation == 4
-    #code for DIVIDE
+elif "opt1"== '*':
+    result = number_1 * number_2
+    print("number_1 * number_2")
+
 else:
-    print("invalid entry")
+    print("invalid process")
